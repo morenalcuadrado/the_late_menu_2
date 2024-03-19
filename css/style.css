@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+header h1 {
+  text-align: center;
+  margin: 4px;
+  letter-spacing: 0.15px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  /*display: flex;
+    justify-content: space-between;*/
+}
+
+.food {
+  margin: 6px;
+}
+
+h3 {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.BlueCheese {
+  block-size: 40px;
+}
+
+.fathead {
+  block-size: 50px;
+}
+
+.feta {
+  block-size: 35px;
+}
+
+.medium_large {
+  margin-top: 1px;
+}
+
+img {
+  block-size: 45px;
+}
+
+.label {
+  border: 2px solid black;
+  width: 300px;
+}
+
+p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.divider {
+  border-bottom: 1px solid #888989;
+  margin: 10px;
+  padding: 2px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.large {
+  height: 10px;
+}
+
+.large,
+.medium {
+  background-color: black;
+  border: 0;
+  margin: 10px 0;
+}
+
+.medium {
+  height: 5px;
+}
+
+.daily-value p:not(.no-divider) {
+  border-bottom: 1px solid #888989;
+}
+
+footer {
+  font-size: 0.7rem;
+  margin: 5px 0;
+}
